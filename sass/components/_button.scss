@@ -1,0 +1,50 @@
+
+.hero-text-button {
+    margin-top: 50px;
+    
+    padding: 20px;
+    position: relative;
+    border-radius: 50px;
+    display: inline-block;
+    width: 150px;
+    transition: all .3s;
+}
+
+.mybtn:hover {
+transform: translateY(-5px);
+text-decoration: none;
+color: white
+}
+
+.btn-text {
+color: white;
+text-decoration: none;
+background-color: #791120;
+}
+
+.mybtn::after {
+content: "" ;
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100% ;
+height: 100%;
+border-radius: 50px;
+transition: all .3s ease-in;
+z-index: -1;
+}
+
+.btn-text::after {
+background-color :#791120;;
+}
+
+.mybtn:hover::after {
+transform: scaleX(1.2) scaleY(1.2);
+opacity: 0;
+}
+
+.about-me-button {
+    text-align: center;
+    padding :10px 5px;
+}
