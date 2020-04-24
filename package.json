@@ -9,6 +9,7 @@
   "author": "atizazahsan",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
     "node-sass": "^4.13.1"
   }

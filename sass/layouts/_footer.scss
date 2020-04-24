@@ -1,0 +1,19 @@
+.myfooter {
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+
+    display : flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 20px;
+
+}
+
+.footer-menu a {
+    color: white;
+
+    &:hover {
+        color:rgb(193, 70, 25);
+        border-bottom : none;
+    }
+}
